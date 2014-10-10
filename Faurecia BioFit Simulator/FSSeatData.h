@@ -96,9 +96,9 @@ struct RawData {
     int8_t lowerBackSurfaceHumidity;
     
     //temperatures
-    int8_t cushionSurfaceTemperature;
-    int8_t backSurfaceTemperature;
-    int8_t ambientTemperature;
+    int16_t cushionSurfaceTemperature;
+    int16_t backSurfaceTemperature;
+    int16_t ambientTemperature;
     
     //seat pressures
     int8_t lowerLumbarPressure;

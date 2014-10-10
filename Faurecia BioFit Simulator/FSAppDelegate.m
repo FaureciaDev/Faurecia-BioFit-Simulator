@@ -162,20 +162,20 @@ static dispatch_source_t timer;
     }
 
     int heartRate = self.seatData->values.heartRate;
-    int ambientTemp = self.seatData->values.ambientTemperature;
+    float ambientTemp = self.seatData->values.ambientTemperature / 10.0;
     int ambientHumidity = self.seatData->values.ambientHumidity;
-    int backTemp = self.seatData->values.backSurfaceTemperature;
+    float backTemp = self.seatData->values.backSurfaceTemperature / 10.0;
     int upperBackHumidity = self.seatData->values.upperBackSurfaceHumidity;
     int lowerBackHumidity = self.seatData->values.lowerBackSurfaceHumidity;
-    int cushionTemp = self.seatData->values.cushionSurfaceTemperature;
+    float cushionTemp = self.seatData->values.cushionSurfaceTemperature / 10.0;
     int cushionHumidity = self.seatData->values.cushionSurfaceHumidity;
 
     message = [NSString stringWithFormat:@"%@\n\u2665 %d BPM", message, heartRate];
     
     [self.infoLabel setStringValue:message];
-    [self.ambientLabel setStringValue:[NSString stringWithFormat: @"Ambient\n%d \u00B0C\n%d%% Humidity", ambientTemp, ambientHumidity]];
-    [self.seatCushionLabel setStringValue:[NSString stringWithFormat: @"Seat Cushion\n%d \u00B0C\n%d%% Humidity", cushionTemp, cushionHumidity]];
-    [self.seatBackLabel setStringValue:[NSString stringWithFormat: @"Seat Back\n%d \u00B0C\nUpper\n%d%% Humidity\nLower\n%d%% Humidity", backTemp, upperBackHumidity, lowerBackHumidity]];
+    [self.ambientLabel setStringValue:[NSString stringWithFormat: @"Ambient\n%g \u00B0C\n%d%% Humidity", ambientTemp, ambientHumidity]];
+    [self.seatCushionLabel setStringValue:[NSString stringWithFormat: @"Seat Cushion\n%g \u00B0C\n%d%% Humidity", cushionTemp, cushionHumidity]];
+    [self.seatBackLabel setStringValue:[NSString stringWithFormat: @"Seat Back\n%g \u00B0C\nUpper\n%d%% Humidity\nLower\n%d%% Humidity", backTemp, upperBackHumidity, lowerBackHumidity]];
 
     self.seatDataDelegate.seatData = self.seatData;
 

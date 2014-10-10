@@ -90,6 +90,8 @@ NSArray *kFS_SEAT_DATA_DESCRIPTION;
 
 @implementation FSSeatData
 
+// Custom Data Modifications
+/*------------------------------------------------------------*/
 - (void) doModificationA {
     //increasing stress to high levels
     if (self.ticks < 15) {
@@ -156,13 +158,11 @@ NSArray *kFS_SEAT_DATA_DESCRIPTION;
 -(void) doModificationE {
     //get in and out of seat
     self->values.occupantPresence = !self->values.occupantPresence;
-    
 }
 
 -(void) doModificationF {
     //massage program 20: apply massage in a clockwise rotation starting with the recipient's left shoulder.
     self->values.massageProgramSelection = 20;
-    
 }
 
 
@@ -295,9 +295,9 @@ NSArray *kFS_SEAT_DATA_DESCRIPTION;
         values.upperBackSurfaceHumidity = 50;
         values.lowerBackSurfaceHumidity = 50;
 
-        values.cushionSurfaceTemperature = 33;
-        values.backSurfaceTemperature = 32;
-        values.ambientTemperature = 21;
+        values.cushionSurfaceTemperature = 330;
+        values.backSurfaceTemperature = 323;
+        values.ambientTemperature = 215;
 
         values.lowerLumbarPressure = 50;
         values.middleLumbarPressure = 50;
@@ -442,9 +442,9 @@ NSArray *kFS_SEAT_DATA_DESCRIPTION;
     [self format:kFS_UUID_UPPER_BACK_SURFACE_HUMIDITY uint8:self->values.upperBackSurfaceHumidity];
     [self format:kFS_UUID_LOWER_BACK_SURFACE_HUMIDITY uint8:self->values.lowerBackSurfaceHumidity];
 
-    [self format:kFS_UUID_CUSHION_SURFACE_TEMPERATURE int8:self->values.cushionSurfaceTemperature];
-    [self format:kFS_UUID_BACK_SURFACE_TEMPERATURE int8:self->values.backSurfaceTemperature];
-    [self format:kFS_UUID_AMBIENT_TEMPERATURE int8:self->values.ambientTemperature];
+    [self format:kFS_UUID_CUSHION_SURFACE_TEMPERATURE int16:self->values.cushionSurfaceTemperature];
+    [self format:kFS_UUID_BACK_SURFACE_TEMPERATURE int16:self->values.backSurfaceTemperature];
+    [self format:kFS_UUID_AMBIENT_TEMPERATURE int16:self->values.ambientTemperature];
 
     [self format:kFS_UUID_LOWER_LUMBAR_PRESSURE uint8:self->values.lowerLumbarPressure];
     [self format:kFS_UUID_MIDDLE_LUMBAR_PRESSURE uint8:self->values.middleLumbarPressure];
@@ -543,9 +543,9 @@ NSArray *kFS_SEAT_DATA_DESCRIPTION;
     S(UPPER_BACK_SURFACE_HUMIDITY, upperBackSurfaceHumidity, uint8_t)
     S(LOWER_BACK_SURFACE_HUMIDITY, lowerBackSurfaceHumidity, uint8_t)
 
-    S(CUSHION_SURFACE_TEMPERATURE, cushionSurfaceTemperature, int8_t)
-    S(BACK_SURFACE_TEMPERATURE, backSurfaceTemperature, int8_t)
-    S(AMBIENT_TEMPERATURE, ambientTemperature, int8_t)
+    S(CUSHION_SURFACE_TEMPERATURE, cushionSurfaceTemperature, int16_t)
+    S(BACK_SURFACE_TEMPERATURE, backSurfaceTemperature, int16_t)
+    S(AMBIENT_TEMPERATURE, ambientTemperature, int16_t)
 
     S(LOWER_LUMBAR_PRESSURE, lowerLumbarPressure, uint8_t)
     S(MIDDLE_LUMBAR_PRESSURE, middleLumbarPressure, uint8_t)
