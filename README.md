@@ -3,7 +3,7 @@ Faurecia-BioFit-Simulator
 
 Turn your Mac into a Bluetooth LE peripheral that simulate Faurecia's BioFit hardware. This app is designed for developers who want to develop iOS and Android apps that integrate with the BioFit hardware.
 
-This app requires OS X 10.9 running on a Mac that supports Bluetooth LE 4.0. All 2013+ Macbooks should work; no 2010 and earlier models will. For 2011 and 2012 hardware, it will work if System Information reports Bluetooth "LMP Version" is 0x06. See http://www.imore.com/how-tell-if-your-mac-has-bluetooth-40 for details.
+This app requires OS X 10.9 running on a Mac that supports Bluetooth LE 4.0. All 2013+ Macbooks should work; no 2010 and earlier models will. For 2011 and 2012 hardware, it will work if System Information reports Bluetooth "LMP Version" is 0x06. See http://www.imore.com/how-tell-if-your-mac-has-bluetooth-40 for details.  Bluetooth also needs to be [turned on](http://support.apple.com/kb/ht1153) for the simulator to function.
 
 Getting Started
 ===============
