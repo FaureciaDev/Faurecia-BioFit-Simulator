@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC56B215-1569-467A-A4D9-AEE12DD932E9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Faurecia BioFit Simulator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>98A24CBF98B4DAC53B55110BC8A13354B800F989</key>
+		<string>github.com:FaureciaDev/Faurecia-BioFit-Simulator.git</string>
+		<key>D1F71848D0A6D323C585113B74EC3D446AFB8429</key>
+		<string>gitlab.atomicobject.com:faurecia-biolens/faurecia-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Faurecia BioFit Simulator.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>98A24CBF98B4DAC53B55110BC8A13354B800F989</key>
+		<string>..</string>
+		<key>D1F71848D0A6D323C585113B74EC3D446AFB8429</key>
+		<string>../../ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:FaureciaDev/Faurecia-BioFit-Simulator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>98A24CBF98B4DAC53B55110BC8A13354B800F989</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>98A24CBF98B4DAC53B55110BC8A13354B800F989</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Faurecia-BioFit-Simulator</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D1F71848D0A6D323C585113B74EC3D446AFB8429</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

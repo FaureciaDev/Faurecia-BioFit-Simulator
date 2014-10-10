@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE2D278E19E7BD8C00BA8B97 /* Seat_Diagram_NL.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2D278D19E7BD8C00BA8B97 /* Seat_Diagram_NL.png */; };
+		BE2D279019E7BDEC00BA8B97 /* simulated-data in Resources */ = {isa = PBXBuildFile; fileRef = BE2D278F19E7BDEC00BA8B97 /* simulated-data */; };
+		BE399E6119E7B67A004925C5 /* libPods-Faurecia BioFit SimulatorTests-Kiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE399E6019E7B67A004925C5 /* libPods-Faurecia BioFit SimulatorTests-Kiwi.a */; };
+		BE3C7C1819E78BF10019B6B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3C7C1719E78BF10019B6B2 /* main.m */; };
+		BE3C7C1D19E78BF10019B6B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3C7C1C19E78BF10019B6B2 /* Images.xcassets */; };
+		BE3C7C2019E78BF10019B6B2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3C7C1E19E78BF10019B6B2 /* MainMenu.xib */; };
+		BE3C7C2C19E78BF10019B6B2 /* Faurecia_BioFit_SimulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3C7C2B19E78BF10019B6B2 /* Faurecia_BioFit_SimulatorTests.m */; };
+		BED1DDE719E7B95A00CD9B34 /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BED1DDE019E7B95A00CD9B34 /* FSAppDelegate.m */; };
+		BED1DDE819E7B95A00CD9B34 /* FSSeatData.m in Sources */ = {isa = PBXBuildFile; fileRef = BED1DDE219E7B95A00CD9B34 /* FSSeatData.m */; };
+		BED1DDE919E7B95A00CD9B34 /* FSSeatDataDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BED1DDE419E7B95A00CD9B34 /* FSSeatDataDelegate.m */; };
+		BED1DDEA19E7B95A00CD9B34 /* FSSeatDataValue.m in Sources */ = {isa = PBXBuildFile; fileRef = BED1DDE619E7B95A00CD9B34 /* FSSeatDataValue.m */; };
+		BED1DDEF19E7B9B100CD9B34 /* FSCharacteristicBundlingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BED1DDEB19E7B9B100CD9B34 /* FSCharacteristicBundlingTest.m */; };
+		BED1DDF019E7B9B100CD9B34 /* FSCharacteristicSubscribeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BED1DDEC19E7B9B100CD9B34 /* FSCharacteristicSubscribeTest.m */; };
+		BED1DDF119E7B9B100CD9B34 /* FSSimulatedDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BED1DDED19E7B9B100CD9B34 /* FSSimulatedDataTest.m */; };
+		BED1DDF219E7B9B100CD9B34 /* FSSimulatorDateFileTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BED1DDEE19E7B9B100CD9B34 /* FSSimulatorDateFileTest.m */; };
+		BED1DDF419E7B9E800CD9B34 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED1DDF319E7B9E800CD9B34 /* Cocoa.framework */; };
+		BED1DDF619E7BA7E00CD9B34 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED1DDF519E7BA7E00CD9B34 /* AppKit.framework */; };
+		E2E2BA1F315D590AFCA351CE /* libPods-Faurecia BioFit SimulatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4B6451A38A38D97243389D /* libPods-Faurecia BioFit SimulatorTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE3C7C2619E78BF10019B6B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3C7C0A19E78BF00019B6B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3C7C1119E78BF10019B6B2;
+			remoteInfo = "Faurecia BioFit Simulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE2D278D19E7BD8C00BA8B97 /* Seat_Diagram_NL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Seat_Diagram_NL.png; sourceTree = "<group>"; };
+		BE2D278F19E7BDEC00BA8B97 /* simulated-data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "simulated-data"; sourceTree = "<group>"; };
+		BE399E6019E7B67A004925C5 /* libPods-Faurecia BioFit SimulatorTests-Kiwi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Faurecia BioFit SimulatorTests-Kiwi.a"; path = "../../../../../Library/Developer/Xcode/DerivedData/Faurecia_BioFit_Simulator-gaalwjwehqzvywdnngjhptnwmhet/Build/Products/Debug/libPods-Faurecia BioFit SimulatorTests-Kiwi.a"; sourceTree = "<group>"; };
+		BE3C7C1219E78BF10019B6B2 /* Faurecia BioFit Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Faurecia BioFit Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3C7C1619E78BF10019B6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3C7C1719E78BF10019B6B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE3C7C1C19E78BF10019B6B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE3C7C1F19E78BF10019B6B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BE3C7C2519E78BF10019B6B2 /* Faurecia BioFit SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Faurecia BioFit SimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3C7C2A19E78BF10019B6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3C7C2B19E78BF10019B6B2 /* Faurecia_BioFit_SimulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Faurecia_BioFit_SimulatorTests.m; sourceTree = "<group>"; };
+		BED1DDDF19E7B95A00CD9B34 /* FSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAppDelegate.h; sourceTree = "<group>"; };
+		BED1DDE019E7B95A00CD9B34 /* FSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAppDelegate.m; sourceTree = "<group>"; };
+		BED1DDE119E7B95A00CD9B34 /* FSSeatData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSeatData.h; sourceTree = "<group>"; };
+		BED1DDE219E7B95A00CD9B34 /* FSSeatData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSeatData.m; sourceTree = "<group>"; };
+		BED1DDE319E7B95A00CD9B34 /* FSSeatDataDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSeatDataDelegate.h; sourceTree = "<group>"; };
+		BED1DDE419E7B95A00CD9B34 /* FSSeatDataDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSeatDataDelegate.m; sourceTree = "<group>"; };
+		BED1DDE519E7B95A00CD9B34 /* FSSeatDataValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSeatDataValue.h; sourceTree = "<group>"; };
+		BED1DDE619E7B95A00CD9B34 /* FSSeatDataValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSeatDataValue.m; sourceTree = "<group>"; };
+		BED1DDEB19E7B9B100CD9B34 /* FSCharacteristicBundlingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCharacteristicBundlingTest.m; sourceTree = "<group>"; };
+		BED1DDEC19E7B9B100CD9B34 /* FSCharacteristicSubscribeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCharacteristicSubscribeTest.m; sourceTree = "<group>"; };
+		BED1DDED19E7B9B100CD9B34 /* FSSimulatedDataTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSimulatedDataTest.m; sourceTree = "<group>"; };
+		BED1DDEE19E7B9B100CD9B34 /* FSSimulatorDateFileTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSimulatorDateFileTest.m; sourceTree = "<group>"; };
+		BED1DDF319E7B9E800CD9B34 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BED1DDF519E7BA7E00CD9B34 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E332C7C7694C98C5FBBB592F /* Pods-Faurecia BioFit SimulatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faurecia BioFit SimulatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Faurecia BioFit SimulatorTests/Pods-Faurecia BioFit SimulatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBD12E513069EC72B302FEFC /* Pods-Faurecia BioFit SimulatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faurecia BioFit SimulatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Faurecia BioFit SimulatorTests/Pods-Faurecia BioFit SimulatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC4B6451A38A38D97243389D /* libPods-Faurecia BioFit SimulatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Faurecia BioFit SimulatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE3C7C0F19E78BF10019B6B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED1DDF619E7BA7E00CD9B34 /* AppKit.framework in Frameworks */,
+				BED1DDF419E7B9E800CD9B34 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3C7C2219E78BF10019B6B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE399E6119E7B67A004925C5 /* libPods-Faurecia BioFit SimulatorTests-Kiwi.a in Frameworks */,
+				E2E2BA1F315D590AFCA351CE /* libPods-Faurecia BioFit SimulatorTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63A4F7922ED95087E3E96E53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BED1DDF519E7BA7E00CD9B34 /* AppKit.framework */,
+				BED1DDF319E7B9E800CD9B34 /* Cocoa.framework */,
+				BE399E6019E7B67A004925C5 /* libPods-Faurecia BioFit SimulatorTests-Kiwi.a */,
+				FC4B6451A38A38D97243389D /* libPods-Faurecia BioFit SimulatorTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE3C7C0919E78BF00019B6B2 = {
+			isa = PBXGroup;
+			children = (
+				BE3C7C1419E78BF10019B6B2 /* Faurecia BioFit Simulator */,
+				BE3C7C2819E78BF10019B6B2 /* Faurecia BioFit SimulatorTests */,
+				BE3C7C1319E78BF10019B6B2 /* Products */,
+				C49B3F780EF7CA0C2503FBC0 /* Pods */,
+				63A4F7922ED95087E3E96E53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE3C7C1319E78BF10019B6B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE3C7C1219E78BF10019B6B2 /* Faurecia BioFit Simulator.app */,
+				BE3C7C2519E78BF10019B6B2 /* Faurecia BioFit SimulatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE3C7C1419E78BF10019B6B2 /* Faurecia BioFit Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				BED1DDDF19E7B95A00CD9B34 /* FSAppDelegate.h */,
+				BED1DDE019E7B95A00CD9B34 /* FSAppDelegate.m */,
+				BED1DDE119E7B95A00CD9B34 /* FSSeatData.h */,
+				BED1DDE219E7B95A00CD9B34 /* FSSeatData.m */,
+				BED1DDE319E7B95A00CD9B34 /* FSSeatDataDelegate.h */,
+				BED1DDE419E7B95A00CD9B34 /* FSSeatDataDelegate.m */,
+				BED1DDE519E7B95A00CD9B34 /* FSSeatDataValue.h */,
+				BED1DDE619E7B95A00CD9B34 /* FSSeatDataValue.m */,
+				BE3C7C1E19E78BF10019B6B2 /* MainMenu.xib */,
+				BE2D278F19E7BDEC00BA8B97 /* simulated-data */,
+				BE3C7C1C19E78BF10019B6B2 /* Images.xcassets */,
+				BE3C7C1519E78BF10019B6B2 /* Supporting Files */,
+			);
+			path = "Faurecia BioFit Simulator";
+			sourceTree = "<group>";
+		};
+		BE3C7C1519E78BF10019B6B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D278D19E7BD8C00BA8B97 /* Seat_Diagram_NL.png */,
+				BE3C7C1619E78BF10019B6B2 /* Info.plist */,
+				BE3C7C1719E78BF10019B6B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE3C7C2819E78BF10019B6B2 /* Faurecia BioFit SimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BED1DDEB19E7B9B100CD9B34 /* FSCharacteristicBundlingTest.m */,
+				BED1DDEC19E7B9B100CD9B34 /* FSCharacteristicSubscribeTest.m */,
+				BED1DDED19E7B9B100CD9B34 /* FSSimulatedDataTest.m */,
+				BED1DDEE19E7B9B100CD9B34 /* FSSimulatorDateFileTest.m */,
+				BE3C7C2B19E78BF10019B6B2 /* Faurecia_BioFit_SimulatorTests.m */,
+				BE3C7C2919E78BF10019B6B2 /* Supporting Files */,
+			);
+			path = "Faurecia BioFit SimulatorTests";
+			sourceTree = "<group>";
+		};
+		BE3C7C2919E78BF10019B6B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE3C7C2A19E78BF10019B6B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C49B3F780EF7CA0C2503FBC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E332C7C7694C98C5FBBB592F /* Pods-Faurecia BioFit SimulatorTests.debug.xcconfig */,
+				EBD12E513069EC72B302FEFC /* Pods-Faurecia BioFit SimulatorTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE3C7C1119E78BF10019B6B2 /* Faurecia BioFit Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3C7C2F19E78BF10019B6B2 /* Build configuration list for PBXNativeTarget "Faurecia BioFit Simulator" */;
+			buildPhases = (
+				BE3C7C0E19E78BF10019B6B2 /* Sources */,
+				BE3C7C0F19E78BF10019B6B2 /* Frameworks */,
+				BE3C7C1019E78BF10019B6B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Faurecia BioFit Simulator";
+			productName = "Faurecia BioFit Simulator";
+			productReference = BE3C7C1219E78BF10019B6B2 /* Faurecia BioFit Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE3C7C2419E78BF10019B6B2 /* Faurecia BioFit SimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3C7C3219E78BF10019B6B2 /* Build configuration list for PBXNativeTarget "Faurecia BioFit SimulatorTests" */;
+			buildPhases = (
+				349043307CA4E4E35828E7D0 /* Check Pods Manifest.lock */,
+				BE3C7C2119E78BF10019B6B2 /* Sources */,
+				BE3C7C2219E78BF10019B6B2 /* Frameworks */,
+				BE3C7C2319E78BF10019B6B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3C7C2719E78BF10019B6B2 /* PBXTargetDependency */,
+			);
+			name = "Faurecia BioFit SimulatorTests";
+			productName = "Faurecia BioFit SimulatorTests";
+			productReference = BE3C7C2519E78BF10019B6B2 /* Faurecia BioFit SimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE3C7C0A19E78BF00019B6B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Faurecia;
+				TargetAttributes = {
+					BE3C7C1119E78BF10019B6B2 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					BE3C7C2419E78BF10019B6B2 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = BE3C7C1119E78BF10019B6B2;
+					};
+				};
+			};
+			buildConfigurationList = BE3C7C0D19E78BF00019B6B2 /* Build configuration list for PBXProject "Faurecia BioFit Simulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE3C7C0919E78BF00019B6B2;
+			productRefGroup = BE3C7C1319E78BF10019B6B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE3C7C1119E78BF10019B6B2 /* Faurecia BioFit Simulator */,
+				BE3C7C2419E78BF10019B6B2 /* Faurecia BioFit SimulatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE3C7C1019E78BF10019B6B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3C7C1D19E78BF10019B6B2 /* Images.xcassets in Resources */,
+				BE2D279019E7BDEC00BA8B97 /* simulated-data in Resources */,
+				BE3C7C2019E78BF10019B6B2 /* MainMenu.xib in Resources */,
+				BE2D278E19E7BD8C00BA8B97 /* Seat_Diagram_NL.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3C7C2319E78BF10019B6B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		349043307CA4E4E35828E7D0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE3C7C0E19E78BF10019B6B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED1DDE719E7B95A00CD9B34 /* FSAppDelegate.m in Sources */,
+				BED1DDE919E7B95A00CD9B34 /* FSSeatDataDelegate.m in Sources */,
+				BED1DDEA19E7B95A00CD9B34 /* FSSeatDataValue.m in Sources */,
+				BE3C7C1819E78BF10019B6B2 /* main.m in Sources */,
+				BED1DDE819E7B95A00CD9B34 /* FSSeatData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3C7C2119E78BF10019B6B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED1DDF019E7B9B100CD9B34 /* FSCharacteristicSubscribeTest.m in Sources */,
+				BED1DDEF19E7B9B100CD9B34 /* FSCharacteristicBundlingTest.m in Sources */,
+				BE3C7C2C19E78BF10019B6B2 /* Faurecia_BioFit_SimulatorTests.m in Sources */,
+				BED1DDF119E7B9B100CD9B34 /* FSSimulatedDataTest.m in Sources */,
+				BED1DDF219E7B9B100CD9B34 /* FSSimulatorDateFileTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE3C7C2719E78BF10019B6B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3C7C1119E78BF10019B6B2 /* Faurecia BioFit Simulator */;
+			targetProxy = BE3C7C2619E78BF10019B6B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE3C7C1E19E78BF10019B6B2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3C7C1F19E78BF10019B6B2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE399E5D19E78CB7004925C5 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"FAURECIA_TEST=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Test;
+		};
+		BE399E5E19E78CB7004925C5 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Faurecia BioFit Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Test;
+		};
+		BE399E5F19E78CB7004925C5 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E332C7C7694C98C5FBBB592F /* Pods-Faurecia BioFit SimulatorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Faurecia BioFit SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Faurecia_BioFit_Simulator-gaalwjwehqzvywdnngjhptnwmhet/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faurecia BioFit Simulator.app/Contents/MacOS/Faurecia BioFit Simulator";
+			};
+			name = Test;
+		};
+		BE3C7C2D19E78BF10019B6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE3C7C2E19E78BF10019B6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE3C7C3019E78BF10019B6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Faurecia BioFit Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE3C7C3119E78BF10019B6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Faurecia BioFit Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE3C7C3319E78BF10019B6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E332C7C7694C98C5FBBB592F /* Pods-Faurecia BioFit SimulatorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Faurecia BioFit SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Faurecia_BioFit_Simulator-gaalwjwehqzvywdnngjhptnwmhet/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faurecia BioFit Simulator.app/Contents/MacOS/Faurecia BioFit Simulator";
+			};
+			name = Debug;
+		};
+		BE3C7C3419E78BF10019B6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD12E513069EC72B302FEFC /* Pods-Faurecia BioFit SimulatorTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Faurecia BioFit SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Faurecia_BioFit_Simulator-gaalwjwehqzvywdnngjhptnwmhet/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faurecia BioFit Simulator.app/Contents/MacOS/Faurecia BioFit Simulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE3C7C0D19E78BF00019B6B2 /* Build configuration list for PBXProject "Faurecia BioFit Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3C7C2D19E78BF10019B6B2 /* Debug */,
+				BE399E5D19E78CB7004925C5 /* Test */,
+				BE3C7C2E19E78BF10019B6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3C7C2F19E78BF10019B6B2 /* Build configuration list for PBXNativeTarget "Faurecia BioFit Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3C7C3019E78BF10019B6B2 /* Debug */,
+				BE399E5E19E78CB7004925C5 /* Test */,
+				BE3C7C3119E78BF10019B6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3C7C3219E78BF10019B6B2 /* Build configuration list for PBXNativeTarget "Faurecia BioFit SimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3C7C3319E78BF10019B6B2 /* Debug */,
+				BE399E5F19E78CB7004925C5 /* Test */,
+				BE3C7C3419E78BF10019B6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE3C7C0A19E78BF00019B6B2 /* Project object */;
+}

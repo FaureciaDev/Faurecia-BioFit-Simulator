@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B192213B-F8E4-4123-B940-86805AE29C99</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Faurecia BioFit Simulator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D1F71848D0A6D323C585113B74EC3D446AFB8429</key>
+		<string>gitlab.atomicobject.com:faurecia-biolens/faurecia-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>seat-sim/Faurecia BioFit Simulator/Faurecia BioFit Simulator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D1F71848D0A6D323C585113B74EC3D446AFB8429</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>gitlab.atomicobject.com:faurecia-biolens/faurecia-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D1F71848D0A6D323C585113B74EC3D446AFB8429</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D1F71848D0A6D323C585113B74EC3D446AFB8429</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>
